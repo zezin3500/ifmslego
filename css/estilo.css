@@ -1,0 +1,134 @@
+.pai{
+		width: 100%;
+		height: 35vh;
+		background-color: darkgreen;
+		display: flex;
+		flex-direction: column;
+}
+.filho1{
+		width: 15%;
+		height: 20vh;
+		justify-content: space-around;
+		margin-left: 100px;
+		margin-top: 15px;
+}
+.filho2{
+		width: 100%;
+		height: 15vh;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		padding: 0.8vh;
+}
+.pai2{
+		width: 100%;
+		height: 65vh;
+		background-color: mintcream;
+		display: flex;
+		flex-direction: row-reverse;
+		display: flex;
+		justify-content: center;
+}
+.filho3{
+		width: 30%;
+		height: 65vh;
+		flex-direction: column-reverse;
+		background-color: mintcream;
+		display: flex;
+		justify-content: center;
+		margin-left: 500px;
+}
+.pai3{
+		width: 100%;
+		height: 20vh;
+		background-color: darkgreen;
+		display: flex;
+		flex-direction: row-reverse;
+}
+.input{
+	font-size: 2.3vh;
+	border-radius: 1vh;
+	border-style: none;
+	margin-left: 1500px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	margin-bottom: -110px;
+	margin-top: 80px;
+}
+figcaption{
+	font-size: 45px;
+	font-family: arial;
+	color: blue;
+}
+.imagens{
+	display: flex;
+	flex-direction: column;
+}
+.imagem{
+	padding: 0.5vh;
+	margin-left: -400px;
+}
+
+@media(max-width: 760px){
+	.filho1{
+		text-align: center !important;
+		margin: 0vh;
+		align-content: center;
+	}
+	.filho2{
+		display: none;
+	}
+	.pai{
+		width: 100%;
+		height: 20vh;
+		flex-direction: row;
+		text-align: center;
+		margin: 0vh;
+	}
+	.imagem{
+		margin: 4vh 2% 4vh 80%;
+		width: 13%;
+		height: 4vh;
+		margin-left: 20px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		display: revert;
+		flex-direction: row;
+	}
+	.pai2{
+		width: 100%;
+		height: 120vh;
+		flex-direction: column;
+	}
+	figcaption{
+		font-size: 15px;
+		margin-top: 5px;
+	}
+	.input{
+		display: none;
+	}
+	.pai3{
+		height: 30vh;
+	}
+	#eleicao{
+		position: relative;
+		margin: 2vh 0% 2vh 0%;
+		margin-left: -120px;
+	}
+	.filho3{
+		margin: 5vh 0% 5vh 0%;
+		text-align: center;
+		width: 100%;
+	}
+	#imgif{
+		align-content: center;
+		position: absolute;
+		width: 18%;
+		height: 15vh;
+		margin: 2vh 45% 2vh 35%;
+	}
+	#fecigran{
+		display: block;
+	}
+}
